@@ -1,0 +1,114 @@
+/*Colors: https://color.adobe.com/create/color-wheel/?base=2&rule=Compound&selected=2&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.8,0.7290796528879292,0.21934313120451315,0.6,0.5834511802085454,0.4645073484033848,1,0.7973897735765492,0.3741789140056414,0.6241789140056414,0.8626878619452539,1,0.21934313120451315,0.7406523298106609,0.8&swatchOrder=0,1,2,3,4
+*/
+/*General*/
+body {
+	background-color:black;
+}
+
+.pad{
+  padding: 5em 0em;
+}
+.smallPad{
+  padding: 2em 0em;
+}
+
+.col-centered{
+	float: none;
+	margin: 0 auto;
+}
+
+.center-all{
+	display: flex;
+	align-items: center; /* Centers items vertically */
+	justify-content: center; /* Centers items horizontally (optional) */
+  }
+
+/*Color blocks*/
+.b-black {
+	background-color: black;
+  	color: #CCBA38;
+}
+.b-tan {
+	background-color: rgb(247, 244, 218);
+}
+.b-lightblue {
+	background-color: #9FDCFF;
+}
+.b-midblue {
+	background-color: #5E5D8C;
+	color: white;
+}
+.b-darkblue {
+	background-color: #010326;
+	color: white;
+}
+
+.b-gold{
+	background-color: #947244;
+	color: white;
+}
+
+.b-purple{
+	background-color: #261d3c;
+	color: white;
+}
+
+.b-lightpurple{
+	background-color: #BF93B8;
+	color: white;
+}
+
+/*Hero section*/
+.background-hero {
+  height: 100vh;
+  padding-top: 8%;
+  padding-bottom: 50%;
+  background: url(../img/a-note-of-sunrise.jpg);
+  background-size: cover;
+  background-position: center;
+  color:wheat;
+}
+.background-hero h1{
+  font-size:8em;
+}
+
+
+/*Formating of headshot*/
+.roundPhoto {
+  max-height:20em;
+  border-radius: 2em;
+}
+
+p {
+	font-size: 1.5em;
+	line-spacing: 5em;
+}
+
+/*Activites list formatting*/
+.bulletList{
+	font-size: 1.5em;
+	padding:.9em;
+}
+
+.bulletList li{
+  margin: .2em 0;
+}
+
+/*For tools section*/
+.tools .glyphicon{
+	font-size: 3em;
+}
+.pics img{
+	max-width: 12em;
+	height: auto;
+}
+#mysql{
+	transform: translateY(-9%);
+}
+
+/*For github guy at bottom*/
+#ghProfile{
+	float: center;
+	padding: 1em;
+	max-width: 5em;
+}
