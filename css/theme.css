@@ -67,9 +67,47 @@ body {
   background-size: cover;
   background-position: center;
   color:wheat;
+  position: relative;
+  overflow:hidden;
 }
 .background-hero h1{
   font-size:8em;
+}
+
+/* 2. Style the quote box */
+.hero-quote {
+    position: absolute;
+    bottom: 40px;   /* Distance from bottom */
+    right: 40px;    /* Distance from right */
+    text-align: right;
+    max-width: 300px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.3); /* Subtle dark overlay for readability */
+    border-right: 3px solid #CCBA38; /* Your theme's gold color */
+    color: wheat;
+}
+
+.hero-quote p {
+    font-style: italic;
+    font-size: 1.2em; /* Slightly smaller than your main text */
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+.hero-quote span {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+/* Mobile tweak: make it smaller or center it on small screens */
+@media (max-width: 768px) {
+    .hero-quote {
+        bottom: 20px;
+        right: 20px;
+        max-width: 200px;
+    }
 }
 
 
